@@ -178,9 +178,6 @@ async def all_roles(ctx):
     #culture roles created
     await ctx.invoke(client.get_command('culture'))
 
-    #college roles created
-    await ctx.invoke(client.get_coomand('college'))
-
 
 #---------------------------------------------------------Welcome Category----------------------------------------------------------#
 
